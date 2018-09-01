@@ -12,8 +12,8 @@ int main()
 		
 		if (x != "exit") {
 	
-		cout << x << endl;
-	}
+			cout << x << endl;
+		}
 	}	
 	return 0;
 }
