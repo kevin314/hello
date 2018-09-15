@@ -1,10 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int sumarray(int count, int sum)
+int sumarray(int count)
 {
 	int x;
 	int array[count];
+	int sum = 0;
 
 	for(x = 0; x < count; x ++)
 	{
@@ -20,7 +21,7 @@ int main()
 	printf("Enter 5 numbers to add:\n");
 
 	int sum;
-	sum = sumarray(5, 0);
+	sum = sumarray(5);
 	
 	printf("Sum is: %d\n", sum);
 
