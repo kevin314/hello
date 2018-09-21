@@ -7,14 +7,14 @@ int sumarray(int count)
 	int array[count];
 	int sum = 0;
 
-	for(x = 0; x < count; x ++)
+	for(x = 0; x < count; x++)
 	{
 		scanf("%d", &array[x]);
 		sum += array[x];
 	}
 	
 	return sum;
-	}
+}
 	
 int main()
 {
